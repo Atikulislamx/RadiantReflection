@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page Not Found | RADIANT REFLECTION</title>
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="stylesheet" href="css/style.css">
+<style>
+  .not-found {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+  }
+  .not-found .motif { width: 64px; margin-bottom: 1.5rem; }
+  .not-found h1 { font-size: clamp(2.5rem, 8vw, 4rem); }
+  .not-found p { margin-top: 1rem; color: var(--color-charcoal-soft); max-width: 42ch; }
+  .not-found .btn { margin-top: 2rem; }
+</style>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a href="index.html" class="brand">RADIANT <span>REFLECTION</span></a>
+    </nav>
+  </header>
+
+  <main class="not-found">
+    <svg class="motif" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <circle cx="100" cy="70" r="46" stroke-width="1.2"/>
+      <circle cx="100" cy="70" r="34" stroke-width="1"/>
+      <path d="M100 116 C 82 150, 82 168, 100 190 C 118 168, 118 150, 100 116 Z" stroke-width="1.2"/>
+    </svg>
+    <h1>404</h1>
+    <p>The page you are looking for could not be found. It may have been moved or no longer exists.</p>
+    <a href="index.html" class="btn btn-primary">Return Home</a>
+  </main>
+</body>
+</html>
